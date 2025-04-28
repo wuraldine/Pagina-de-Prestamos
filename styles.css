@@ -1,9 +1,20 @@
-
-.carrusel-img 
+h1
 {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    width: 100%;
+    color: black;
+    font-size: 48px;
+    text-align: center;
+}
+
+p
+{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+li
+{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
 }
