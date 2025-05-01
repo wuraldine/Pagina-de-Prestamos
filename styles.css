@@ -24,8 +24,9 @@ li
 
 .logo-cesde
 {
-    background-color:  rgb(230, 34, 154);
-    padding: 20px;
+    display: flex;
+    background-color:  rgb(215, 17, 139);
+    padding: 10px;
     
 }
 
@@ -43,4 +44,16 @@ h3
     font-size: 24px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.item-menu
+{
+    display: inline;
+    justify-content: space-between;
+    padding: 20px;
 }
