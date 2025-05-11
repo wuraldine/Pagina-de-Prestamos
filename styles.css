@@ -24,9 +24,10 @@ li
 
 .logo-cesde
 {
-    display: flex;
-    background-color:  rgb(215, 17, 139);
+    display:flex;
+    background-color:  rgb(211, 5, 132);
     padding: 10px;
+    
     
 }
 
@@ -58,3 +59,27 @@ h3
     padding: 20px;
 }
 
+.body
+{
+    background-color: rgb(250, 249, 248);
+    margin: 0px;
+}
+
+.containerInicio
+{
+    margin: 30px;
+}
+
+.footer
+{
+    display:flex;
+    background-color:  rgb(211, 5, 132);
+    padding: 8px;
+    text-align: center;
+}
+
+.footerp
+{
+    color: white;
+    text-align: center;
+}
