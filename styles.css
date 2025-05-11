@@ -6,7 +6,7 @@ h1
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p
+.parrafo
 {
     color: black;
     font-size: 18px;
@@ -24,10 +24,8 @@ li
 
 .logo-cesde
 {
-    display:flex;
-    background-color:  rgb(211, 5, 132);
-    padding: 10px;
-    
+    display:block flex;
+    background-color:  rgb(211, 5, 132);    
 }
 
 h2
@@ -49,16 +47,18 @@ h3
 
 .menu 
 {
-    display: flex;
+    display:flex;
     list-style: none;
 }
 
 
 .item-menu
 {
-    justify-content: space-between;
-    padding: 20px;
-    font-size: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+    font-size: 25px;
+    margin:0px;
 }
 
 
@@ -83,28 +83,37 @@ h3
 
 .footer
 {
-    display:flex;
+    display:block;
     background-color:  rgb(211, 5, 132);
     padding: 8px;
-    text-align: center;
 }
 
-.footerp
+.parrafo-footer
 {
     color: white;
-    text-align: center;
+    font-size: 18px;
+    text-align:center;
 }
 
 .item-menu-login
 {
-    justify-content: space-between;
-    padding: 20px;
+    text-align: center;
     font-size: 20px;
+    margin: 15px;
+    padding: 20px;
     margin-left: auto;
+    background-color: rgb(245, 223, 223);
+    border-radius: 10px;
 }
 
 .login-a
 {
     text-decoration:none;
-    color: white;
+    color: rgb(8, 8, 8);
+}
+
+.linea-separacion
+{
+    
+    color: rgb(211, 5, 132);;
 }
