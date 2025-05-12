@@ -24,7 +24,7 @@ li
 
 .logo-cesde
 {
-    display:block flex;
+    display:flex;
     background-color:  rgb(211, 5, 132);   
 }
 
@@ -78,7 +78,7 @@ h3
 .containerInicio
 {
     margin: 30px;
-    
+
 }
 
 .footer
@@ -116,4 +116,18 @@ h3
 {
     
     color: rgb(211, 5, 132);;
+}
+
+.container-img-contac
+{
+    margin: 20px; 
+    border-radius: 15px; 
+    width: 650px; 
+    height: 650px;
+}
+
+.parrafoContacto
+{
+    margin: 20px;
+    font-size: 20px;
 }
