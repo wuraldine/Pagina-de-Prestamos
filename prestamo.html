@@ -36,7 +36,7 @@
             <a class="item-menua" href="ubicacion.html"><strong>Ubicación</strong></a>
         </li>
         <li class="item-menu">
-            <a class="item-menua" href="prestamo.html"><strong>Préstamo</strong></a><a class="linea-separacion">________________________________________</a>
+            <a class="item-menua" href="prestamo.html"><strong>Préstamo</strong></a><a class="linea-separacion">_______________________________________</a>
         </li>
         <li class="item-menu-login">
             <a class="login-a" href="login.html">Iniciar Sesión</a>
@@ -50,35 +50,40 @@
             <form action="#" method="post">
                 <div class="form-group">
                     <label for="nombre">Nombre Completo: </label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input class="cuadroF" type="text" id="nombre" name="nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="documento">Número de Documento: </label>
-                    <input type="text" id="documento" name="documento" required>
+                    <input class="cuadroF-" type="text" id="documento" name="documento" required>
                 </div>
                 <div class="form-group">
-                    <label for="tipo-equipo">Tipo de Equipo: </label>
-                    <select id="tipo-equipo" name="tipo-equipo" required>
-                        <option value>Seleccione un equipo</option>
-                        <option value="desarrollo">Desarrollo de Software</option>
-                        <option value="diseño">Diseño Gráfico</option>
-                        <option value="ofimatica">Herramientas Ofimáticas</option>
+                    <label class="option1" for="tipo-equipo">Tipo de Equipo: </label>
+                    <select class="cuadroF--" id="tipo-equipo" name="tipo-equipo" required>
+                        <option class="option" value>Seleccione un equipo</option>
+                        <option class="option" value="desarrollo">Desarrollo de Software</option>
+                        <option class="option" value="diseño">Diseño Gráfico</option>
+                        <option class="option" value="ofimatica">Herramientas Ofimáticas</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="fecha">Fecha de Préstampo</label>
-                    <input type="date" id="fecha" name="fecha" required>
+                    <input class="cuadroF---" type="date" id="fecha" name="fecha" required>
                 </div>
                 <div class="form-group">
                     <label for="hora">Hora de Préstamo:</label>
-                    <input type="time" id="hora" name="hora" required>
+                    <input class="cuadroF----" type="time" id="hora" name="hora" required>
                 </div>
                 <div class="form-button">
-                    <button type="submit">Solicitar Préstamo</button>
-                    <button type="submit">Crear cuenta</button>
+                    <button class="button" type="submit">Solicitar Préstamo</button>
+                    
                 </div>
             </form>
         </section> 
+        <section>
+            <form action="#" method="post">
+                <a href="register.html" class="buttonCrear">Crear cuenta</a>
+            </form>
+        </section>
 </main>
 <footer class="footer" style="position: fixed; bottom: 0; width: 100%;">
         <p class="parrafo-footer">

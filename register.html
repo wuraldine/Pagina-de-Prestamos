@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <link
+    rel="Icon"
+    href="../img/icono-cesde.png"
+    type="image/x-icono"
+    sizes="192x192"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro de Usuarios - CESDE</title>
 </head>
+
 <body class="body">
 <section class="logo-cesde">
         
@@ -28,7 +36,7 @@
             <a class="item-menua" href="ubicacion.html"><strong>Ubicación</strong></a>
         </li>
         <li class="item-menu">
-            <a class="item-menua" href="prestamo.html"><strong>Préstamo</strong></a><a class="linea-separacion">________________________________________</a>
+            <a class="item-menua" href="prestamo.html"><strong>Préstamo</strong></a><a class="linea-separacion">_______________________________________</a>
         </li>
         <li class="item-menu-login">
             <a class="login-a" href="login.html">Iniciar Sesión</a>
@@ -38,38 +46,44 @@
 </section>
 <main>
         <section class="formulario-prestamo">
-            <h1>Solicitud de Préstamo de Equipos</h1>
+            <h1>Regístrese</h1>
             <form action="#" method="post">
                 <div class="form-group">
                     <label for="nombre">Nombre Completo: </label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input class="cuadroR" type="text" id="nombre" name="nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="documento">Número de Documento: </label>
-                    <input type="text" id="documento" name="documento" required>
+                    <input class="cuadroR-" type="text" id="documento" name="documento" required>
                 </div>
                 <div class="form-group">
-                    <label for="tipo-equipo">Tipo de Equipo: </label>
-                    <select id="tipo-equipo" name="tipo-equipo" required>
-                        <option value>Seleccione un equipo</option>
-                        <option value="desarrollo">Desarrollo de Software</option>
-                        <option value="diseño">Diseño Gráfico</option>
-                        <option value="ofimatica">Herramientas Ofimáticas</option>
+                    <label class="option1" for="tipo-equipo">Carrera: </label>
+                    <select class="cuadroR--" id="tipo-equipo" name="tipo-equipo" required>
+                        <option class="option" value>Seleccione un equipo</option>
+                        <option class="option" value="desarrollo">Desarrollo de Software</option>
+                        <option class="option" value="diseño">Diseño Gráfico</option>
+                        <option class="option" value="ofimatica">Herramientas Ofimáticas</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="fecha">Fecha de Préstampo</label>
-                    <input type="date" id="fecha" name="fecha" required>
+                    <label for="fecha">Correo Institucional</label>
+                    <input class="cuadroR---" type="text" id="correo" name="Email" required>
                 </div>
                 <div class="form-group">
-                    <label for="hora">Hora de Préstamo:</label>
-                    <input type="time" id="hora" name="hora" required>
+                    <label for="password">Contraseña:</label>
+                    <input class="cuadroR----" type="password" id="password" name="Contraseña" required>
                 </div>
-                <div class="form-group">
-                    <button type="submit">Solicitar Préstamo</button>
+                <div class="form-button">
+                    <button class="buttonRegistro" type="submit">Registrarse</button>
+                    
                 </div>
             </form>
         </section> 
+        <section>
+            <form action="#" method="post">
+                <a href="login.html" class="buttonCuentaYa">Ya tengo una cuenta</a>
+            </form>
+        </section>
 </main>
 <footer class="footer" style="position: fixed; bottom: 0; width: 100%;">
         <p class="parrafo-footer">
