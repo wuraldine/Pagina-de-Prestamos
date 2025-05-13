@@ -71,21 +71,29 @@ h3
 {
     background-color: rgb(250, 249, 248);
     margin: 0px;
+    background-: url(img/icono-cesde.png);
 }
 
 .containerInicio
 {
-    background-color: rgb(179, 174, 174);
-    margin-left:100px;
-    margin-right: 700px;
-    border-radius: 5px;
+    display:inline-block ;
+    background-color: rgb(206, 205, 205); width: 400px; height: 500px;
+    margin-left: 115px;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 30px;
+    margin-bottom: 0px;
 }
 
 .containerReglas
 {
-    background-color: rgb(141, 131, 131);
-    margin-left: 200px;
-    margin-right: 200px;
+     display:inline-block ;
+    background-color: rgb(206, 205, 205); width: 400px; height: 500px;
+    margin-left: 115px;
+    margin-top: 0px;
+    padding: 40px;
+    border-radius: 30px;
+    margin-bottom: px;
 }
 
 .footer
