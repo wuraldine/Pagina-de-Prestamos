@@ -64,10 +64,8 @@ h3
 .item-menua
 {
     text-decoration:none;
-    color: white;
-    
+    color: white;    
 }
-
 
 .body
 {
@@ -93,6 +91,7 @@ h3
     color: white;
     font-size: 18px;
     text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .item-menu-login
@@ -104,18 +103,27 @@ h3
     margin-left: auto;
     background-color: rgb(245, 223, 223);
     border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.item-menu-login:hover
+{
+    background-color: rgb(190, 187, 187);
+    cursor: pointer;
 }
 
 .login-a
 {
     text-decoration:none;
     color: rgb(8, 8, 8);
+    transition: background-color 0.3s ease;
 }
+
 
 .linea-separacion
 {
     
-    color: rgb(211, 5, 132);;
+    color: rgb(211, 5, 132);
 }
 
 .container-img-contac
@@ -157,4 +165,64 @@ h3
     margin: 40px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img
+{
+    display:inline-block ;
+    background-color: rgb(206, 205, 205); width: 400px; height: 500px;
+    margin-left: 115px;
+    margin-top: 0px;
+    padding: 40px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.card-img:hover
+{
+    background-color: rgb(167, 163, 163);
+    cursor: pointer;
+}
+
+.card-imgimg
+{
+    border-radius: 30px;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.informacion
+{
+    background-color: rgb(177, 27, 119);
+    margin-left:130px;
+    padding: 15px;
+    border-radius: 15px;;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+     ;
+}
+
+.titulo-servicio
+{
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-princser
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo-servicios
+{
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif ;
 }
