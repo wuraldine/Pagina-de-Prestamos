@@ -79,11 +79,12 @@ h3
 {
     display:inline-block ;
     background-color: rgb(206, 205, 205); width: 551px; height: 550px;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: 15px;
+    margin-top: 15px;
     margin-bottom: 20px;
     padding: 40px;
     border-style:groove;
+    border-radius: 10px;
 }
 
 .parrafoInicio
@@ -95,8 +96,7 @@ h3
 
 .containerReglas
 {
-     display:inline-block ;
-    background-color: rgb(250, 249, 248); width: 1190px; height: 465px;
+    display:inline-block ;
     margin-left: 0px;
     margin-top: 15px;
     padding: 30px;
@@ -180,12 +180,14 @@ h3
 .formulario-prestamo
 {
     display:block;
-    background-color: rgb(206, 205, 205); height: 580px; width: 600px;
+    background-color: rgb(206, 205, 205); height: 620px; width: 600px;
     margin-left: 660px;
     margin-right: 690px;
+    margin-top: 50px;
     border-radius: 15px;
     margin-bottom: 0px;
     margin-top: 5px;
+    border-style: groove;
 }
 
 .button
@@ -210,7 +212,7 @@ h3
 {
     display: block;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 16px;
     padding: 15px;
     margin-left: 1000px;
     margin-right: 750px;
@@ -326,7 +328,6 @@ h3
 {
     background-color: rgb(177, 27, 119);
     margin-left:130px;
-
     padding: 15px;
     border-radius: 15px;;
     list-style: none;
@@ -334,6 +335,7 @@ h3
     font-size: 30px;
     text-align: center;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
      ;
 }
 
@@ -368,10 +370,12 @@ h3
 .container-iniciar-sesion
 {
     display: block;
-    background-color: rgb(206, 205, 205); height: 600px; width: 600px;
+    background-color: rgb(206, 205, 205); height: 550px; width: 600px;
     margin-left: 660px;
+    margin-top: 50px;
     margin-right: 690px;
     border-radius: 15px;
+    border-style: groove;
 }
 
 .cuadroR
@@ -446,9 +450,9 @@ h3
 {
     display: block;
     margin-bottom: 20px;
-    margin-top: 15px;
+    margin-top: 12px;
     padding: 15px;
-    margin-left: 970px;
+    margin-left: 950px;
     margin-right: 700px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -468,9 +472,11 @@ h3
 .cuadroI
 {
     display:inline-block;
-    padding: 0px;
+    padding: 15px;
+    margin-left:0px;
+    margin-top: 15px;
     margin-right: 0px;
-    width: 295px;
+    width: 470px;
     border-radius: 10px;
     
 }
@@ -478,19 +484,57 @@ h3
 .cuadroI-
 {
     display:inline-block;
-    padding: 10px;
+    padding: 15px;
+    margin-left:0px;
     margin-right: 0px;
-    width: 250px;
+    width: 470px;
     border-radius: 10px;
-    
 }
 
-.cuadroI--
+.tituloLogin
 {
-    display:inline-block;
-    padding: 10px;
-    margin-right: 0px;
-    width: 414px;
-    border-radius: 10px;
-    
+    margin:40px;
+}
+
+.button-Inicio-sesion
+{
+    display: block;
+    margin-top: 25px;
+    padding: 15px;
+    margin-left: 95px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: groove;
+    border-radius: 8px;
+}
+
+.button-Inicio-sesion:hover
+{
+    background-color: rgb(190, 187, 187);
+    cursor: pointer;
+}
+
+
+.buttonCrear-Inicio
+{
+    display: block;
+    background-color:rgb(248, 245, 245);
+    margin-bottom: 20px;
+    margin-top: -120px;
+    padding: 15px;
+    margin-left: 1000px;
+    margin-right: 750px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:groove;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: black; 
+}
+
+.buttonCrear-Inicio:hover
+{
+    background-color: rgb(190, 187, 187);
+    cursor: pointer;
 }

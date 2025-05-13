@@ -46,20 +46,26 @@
     </section>
     <main>
         <section class="container-iniciar-sesion">
-            <h1> Iniciar sesión</h1>
+            <h1 class="tituloLogin"> Iniciar sesión</h1>
             <form action="#" method="post">
                 <div class="form-group">
-                    <label class="cuadroI" for="usuario">Usuario:</label>
-                    <input type="text" id="usuario" name="usuario">
+                    <label for="usuario">Usuario:</label>
+                    <input class="cuadroI" type="text" id="usuario" name="usuario" required>
                 </div>
                 <div class="form-group">
                     <label class="cuadroI-" for="contrasena">Contraseña:</label>
-                    <input type="password" id="contrasena" name="contrasena">
+                    <input class="cuadroI-" type="password" id="password" name="contrasena" required>
                 </div>
-                <div class="form-group">
-                    <button class="cuadroI--" type="submit">Iniciar Sesión</button>
-                    <button type="submit">Crear cuenta</button>
+                <div class="form-button">
+                    <button class="button-Inicio-sesion" type="submit">Iniciar sesión</button>
                 </div>
+            </form>
+        </section> 
+        <section>
+            <form action="#" method="post">
+                <a href="register.html" class="buttonCrear-Inicio">Crear cuenta</a>
+            </form>
+        </section>
             </form>
         </section>
     </main>
