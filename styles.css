@@ -650,3 +650,77 @@ h3
     background-size: cover;
     filter: 
 }
+
+.blog-1
+{
+    background-color: rgb(235, 211, 211);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    
+}
+
+.p_blog
+{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p_blog-
+{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-2
+{
+    background-color: rgb(235, 211, 211);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.p-testimonio
+{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.button-formatos-1
+{
+    display: block;
+    margin-bottom: 0rem;
+    margin-top:0rem;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 30rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:groove;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    width: 12rem;
+    background-color: rgb(127, 171, 236);
+}
+
+.button-formatos1
+{
+    display: block;
+    margin-bottom: 0rem;
+    margin-top:-3.7rem;
+    padding: 1rem;
+    margin-left: 23rem;
+    margin-right: 40rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:groove;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    width: 10rem;
+    background-color: rgb(127, 171, 236);
+}
