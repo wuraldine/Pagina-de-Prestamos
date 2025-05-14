@@ -70,8 +70,8 @@ h3
 .body
 {
     background-color: rgb(250, 249, 248);
-    margin: 0px;
-    margin-bottom: 100px;
+    margin: 0rem;
+    margin-bottom: 10rem;
     background-: url(img/icono-cesde.png);
 }
 
