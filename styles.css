@@ -106,9 +106,9 @@ h3
 .containerReglas
 {
     display:inline-block ;
-    margin-left: 1rem;
+    margin-left: 0rem;
     margin-top: 1rem;
-    padding: 30px;
+    padding: 20px;
     border-radius: 0px;
     margin-bottom: 0rem;
     background-color:  rgb(240, 212, 243);
