@@ -1,7 +1,7 @@
 h1
 {
     color: black;
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,7 +9,7 @@ h1
 .parrafo
 {
     color: black;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: initial;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +17,7 @@ h1
 li
 {
     color: black;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,42 +31,44 @@ li
 h2
 {
     color: black;
-    font-size: 32px;
+    font-size: 2rem;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
+    margin: 3rem;
 }
 
 h3
 {
     color: black;
-    font-size: 24px;
+    font-size: 2rem;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu 
 {
-    display:flex;
-    list-style: none;
+    display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      align-items: center;
 }
 
 
 .item-menu
 {
     display: flex;
-    justify-content:space-between;
-    padding: 30px;
-    font-size: 25px;
+    padding: 2rem;
+    font-size: 1.5rem;
 }
 
 .item-menu-a
 {
     display: flex;
-    justify-content:space-between;
-    padding: 30px;
-    font-size: 25px;
-    margin-right: 32rem;
+    margin-right: 35rem;
+    padding: 2rem;
+    font-size: 1.6rem;
 }
 
 
@@ -76,70 +78,80 @@ h3
     color: white;    
 }
 
-.body
-{
-    background-color: rgb(250, 249, 248);
-    margin: 0rem;
-    margin-bottom: 10rem;
-}
-
 .containerInicio
 {
-    display:inline-block ;
-    background-color: rgb(206, 205, 205); width: 551px; height: 550px;
+    display: inline-block;
+    background-color: rgb(226, 219, 219); 
     margin-left: 1rem;
+    margin-right: 2rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding: 2rem;
     border-style:groove;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .parrafoInicio
 {
-    font-size: 32px;
-    text-align: justify;
+    font-size: 2rem;
+    text-align: center;
     margin-top: 6rem;
 }
 
 .containerReglas
 {
-    display:inline-block ;
-    margin-left: 0rem;
+    display:inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-top: 1rem;
-    padding: 20px;
-    border-radius: 0px;
-    margin-bottom: 0rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
     background-color:  rgb(240, 212, 243);
-    border-radius: 15px;
     border-style: groove;
+}
+
+.contenedor-paralelo 
+{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .footer
 {
     display:block;
     background-color:  rgb(211, 5, 132);
-    padding: 8px;
+    padding: 0.5rem ;
 }
 
 .parrafo-footer
 {
     color: white;
-    font-size: 18px;
+    font-size: 1rem;
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-login
+{
+    margin-left: auto;
+    justify-content: end;
 }
 
 .item-menu-login
 {
     text-align: center;
-    font-size: 20px;
-    margin: 15px;
+    font-size: 1.4rem;
+    margin: 1rem;
     padding: 20px;
     margin-left: auto;
     background-color: rgb(245, 223, 223);
     border-radius: 10px;
     border-style: groove;
+    
 }
 
 .item-menu-login:hover
@@ -152,7 +164,7 @@ h3
 {
     text-decoration:none;
     color: rgb(8, 8, 8);
-    transition: background-color 0.3s ease;
+    margin-left: auto;
 }
 
 .container-img-contac
@@ -335,25 +347,24 @@ h3
 {
     display:inline-block ;
     background-color: rgb(206, 205, 205); width: 400px; height: 500px;
-    margin-left: 7rem;
-    margin-top: 0px;
-    padding: 40px;
-    border-radius: 30px;
-    margin-bottom: 20px;
+    margin: 4.55rem;
+    margin-top: 1rem;
+    padding: 2.5rem;
+    border-radius: 1rem;
     border-style: groove;
 }
 
 .card-img:hover
 {
-    transform: scale(1.1);
+    transform: scale(1.04);
     background-color: rgb(167, 163, 163);
     cursor: pointer;
 }
 
 .card-imgimg
 {
-    border-radius: 30px;
-    margin-left: 25px;
+    border-radius: 1rem;
+    margin-left: 1.8rem;
     margin-top: 0px;
 }
 
@@ -656,7 +667,6 @@ h3
     padding: 1rem;
     border-radius: 15px;
     border-style: groove;
-    
 }
 
 .p_blog
@@ -672,12 +682,13 @@ h3
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.blog-2
+.container-blog
 {
-    background-color: rgb(235, 211, 211);
-    margin: 2rem;
-    padding: 1rem;
-    border-radius: 15px;
+    display:inline-table;
+    margin: 1rem;
+    padding: 2rem;
+    overflow: auto;
+    object-fit: cover;
 }
 
 .button-formatos-1
