@@ -169,18 +169,20 @@ h3
 
 .container-img-contac
 {
-    margin-right: 20rem; 
+    margin-right: 5rem; 
     margin-top: 3rem;
-    border-top-right-radius: 15px ; 
-    border-bottom-right-radius: 15px;
-    width: 650px; 
-    height: 675px;
+    border-top-right-radius: 1rem ; 
+    border-bottom-right-radius: 1rem;
+    width: 40rem; 
+    height: 43rem;
+    border-style: groove;
 }
 
 .parrafoContacto
 {
-    margin: 20px;
-    font-size: 20px;
+    margin: 1.25rem;
+    font-size: 1.25rem;
+    padding: 1rem;
 }
 
 .container-contact
@@ -188,22 +190,25 @@ h3
     display: block;
     background-color: rgb(206, 205, 205);
     margin-top: 3rem;
-    margin-left: 20rem;
-    padding: 30px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius:15px ;
+    margin-left: 5rem;
+    padding: 2rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius:1rem;
+    width: 40rem; 
+    height: 39rem;
+    border-style: groove;
 }
 
 .formulario-prestamo
 {
     display:block inline;
-    background-color: rgb(206, 205, 205); height: 700px; width: 600px;
+    background-color: rgb(206, 205, 205); height: 43.75rem; width: 37.5rem;
     margin-left: 2rem;
     margin-right: 0rem;
     margin-top: 1rem;
-    border-radius: 15px;
-    margin-bottom: 0px;
-    margin-top: 5px;
+    border-radius: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
     border-style: groove;
 }
 
@@ -327,18 +332,18 @@ h3
 
 .option1
 {
-    font-size: px;
+    font-size: 1.3rem;
 }
 
 .option
 {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .form-group
 {
-    margin: 50px;
-    font-size: 20px;
+    margin: 2.5rem;
+    font-size: 1.25rem;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -365,18 +370,18 @@ h3
 {
     border-radius: 1rem;
     margin-left: 1.8rem;
-    margin-top: 0px;
+    margin-top: 0rem;
 }
 
 .informacion
 {
     background-color: rgb(177, 27, 119);
-    margin-left:130px;
-    padding: 15px;
-    border-radius: 15px;;
+    margin-left:8.6rem;
+    padding: 1rem;
+    border-radius: 1rem;;
     list-style: none;
     color: white;
-    font-size: 30px;
+    font-size: 1.5rem;
     text-align: center;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif
@@ -392,14 +397,14 @@ h3
 .titulo-servicio
 {
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo-princser
 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(190, 187, 187);
     
@@ -407,83 +412,82 @@ h3
 
 .parrafo-servicios
 {
-    font-size: 20px;
-    margin-top: 0px;
+    font-size: 1.3rem;
+    margin-top: 0rem;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif ;
 }
 
 .container-iniciar-sesion
 {
-    display: block;
-    background-color: rgb(206, 205, 205); height: 550px; width: 600px;
-    margin-left: 660px;
-    margin-top: 50px;
-    margin-right: 690px;
-    border-radius: 15px;
+    display: flexbox;
+    background-color: rgb(206, 205, 205); width:37.4rem; height: 35rem;
+    margin-left: 40rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
     border-style: groove;
 }
 
 .cuadroR
 {
     display:inline-block;
-    padding: 10px;
-    margin-right: 0px;
-    width: 295px;
-    border-radius: 10px;
+    padding: 0.7rem;
+    margin-right: 0rem;
+    width: 18rem;
+    border-radius: 0.5rem;
     
 }
 
 .cuadroR-
 {
     display:inline-block;
-    padding: 10px;
-    margin-right: 0px;
-    width: 250px;
-    border-radius: 10px;
+    padding: 0.7rem;
+    margin-right: 0rem;
+    width: 15.3rem;
+    border-radius: 0.5rem;
     
 }
 
 .cuadroR--
 {
     display:inline-block;
-    padding: 10px;
-    margin-right: 0px;
-    width: 414px;
-    border-radius: 10px;
+    padding: 0.7rem;
+    margin-right: 0rem;
+    width: 25.5rem;
+    border-radius: 0.5rem;
     
 }
 
 .cuadroR---
 {
     display:inline-block;
-    padding: 10px;
-    margin-right: 0px;
-    width: 292px;
-    border-radius: 10px;
+    padding: 0.7rem;
+    margin-right: 0rem;
+    width: 18.2rem;
+    border-radius: 0.5rem;
     
 }
 
 .cuadroR----
 {
     display:inline-block;
-    padding: 10px;
-    margin-right: 0px;
-    width: 360px;
-    border-radius: 10px;
+    padding: 0.7rem;
+    margin-right: 0rem;
+    width: 22.4rem;
+    border-radius: 0.5rem;
     
 }
 
 .buttonRegistro
 {
     display: block;
-    margin-top: 95px;
-    padding: 15px;
-    margin-left: 95px;
-    font-size: 18px;
+    margin-top: 5.9rem;
+    padding: 1rem;
+    margin-left: 5,9rem;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     border-style: groove;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .buttonRegistro:hover
@@ -492,124 +496,58 @@ h3
     cursor: pointer;
 }
 
-.buttonCuentaYa
-{
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 12px;
-    padding: 15px;
-    margin-left: 950px;
-    margin-right: 700px;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-style:groove;
-    border-radius: 8px;
-    text-decoration: none;
-    text-align: center;
-    color: black;
-}
-
-.buttonCuentaYa:hover
-{
-    background-color: rgb(190, 187, 187);
-    cursor: pointer;
-}
-
 .cuadroI
 {
     display:inline-block;
-    padding: 15px;
-    margin-left:0px;
-    margin-top: 15px;
-    margin-right: 0px;
-    width: 470px;
-    border-radius: 10px;
+    padding: 1rem;
+    margin-left:0rem;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    width: 29.3rem;
+    border-radius: 0.5rem;
     
 }
 
 .cuadroI-
 {
     display:inline-block;
-    padding: 15px;
-    margin-left:0px;
-    margin-right: 0px;
-    width: 470px;
-    border-radius: 10px;
+    padding: 1rem;
+    margin-left:0rem;
+    margin-right: 0rem;
+    width: 29.3rem;
+    border-radius: 0.5rem;
 }
 
 .tituloLogin
 {
-    margin:40px;
-}
-
-.button-Inicio-sesion
-{
-    display: block;
-    margin-top: 25px;
-    padding: 15px;
-    margin-left: 95px;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-style: groove;
-    border-radius: 8px;
-}
-
-.button-Inicio-sesion:hover
-{
-    background-color: rgb(190, 187, 187);
-    cursor: pointer;
-}
-
-
-.buttonCrear-Inicio
-{
-    display: block;
-    background-color:rgb(248, 245, 245);
-    margin-bottom: 20px;
-    margin-top: -120px;
-    padding: 15px;
-    margin-left: 1000px;
-    margin-right: 750px;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-style:groove;
-    border-radius: 8px;
-    text-decoration: none;
-    text-align: center;
-    color: black; 
-}
-
-.buttonCrear-Inicio:hover
-{
-    background-color: rgb(190, 187, 187);
-    cursor: pointer;
-}
-
-.h1-prestamo
-{
-    color: black;
-    font-size: 32px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
+    margin:2.5rem;
 }
 
 .parrafo-beneficios
 {
-   font-size: 20px;
+   font-size: 1.2rem;
    text-align: justify;
 }
 
 .container-beneficios-prest
 {
-    display: block inline-block;
+    display: inline-block;
     margin-left: 50rem;
     margin-right: 5rem;
-    margin-top: -44rem;
-    border-radius: 30px;
+    margin-top: -80rem;
+    border-radius: 1rem;
     margin-bottom: 0rem;
     background-color: rgb(240, 212, 243);
     border-style: groove;
+}
+
+.contenedor-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
 }
 
 .button-formatos-register
@@ -620,10 +558,10 @@ h3
     padding: 1rem;
     margin-left: 21rem;
     margin-right: 40rem;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     border-style:groove;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -639,10 +577,10 @@ h3
     padding: 1rem;
     margin-left: 2rem;
     margin-right: 30rem;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     border-style:groove;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -665,14 +603,14 @@ h3
     background-color: rgb(235, 211, 211);
     margin: 2rem;
     padding: 1rem;
-    border-radius: 15px;
+    border-radius: 1rem;
     border-style: groove;
 }
 
 .p_blog
 {
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -699,10 +637,10 @@ h3
     padding: 1rem;
     margin-left: 2rem;
     margin-right: 30rem;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     border-style:groove;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -718,10 +656,10 @@ h3
     padding: 1rem;
     margin-left: 23rem;
     margin-right: 40rem;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     border-style:groove;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -735,8 +673,9 @@ h3
     background-color: rgb(235, 211, 211);
     margin-left: 1rem;
     margin-right: 60rem;
-    border-radius: 40px;
+    border-radius: 1rem;
     margin-top: 2rem;
+    border-style: groove;
 }
 
 .formulario-registro
@@ -745,8 +684,8 @@ h3
     background-color: rgb(206, 205, 205); height: 700px; width: 600px;
     margin-left: 75rem;
     margin-right: 0rem;
-    margin-top: -33rem;
-    border-radius: 15px;
+    margin-top: -32rem;
+    border-radius: 1rem;
     border-style: groove;
 }
 
@@ -754,7 +693,7 @@ h3
 {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     margin: 2rem;
 }
 
@@ -762,5 +701,6 @@ h3
 {
     display: inline-block;
     margin-left: 9rem;
+    margin-bottom: 1.5rem;
 
 }
